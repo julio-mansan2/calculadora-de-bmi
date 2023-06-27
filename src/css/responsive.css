@@ -11,6 +11,10 @@
         border-radius: 0 0 0.625rem 0.625rem;
     }
 
+    .choice {
+        justify-content: space-between;
+    }
+
     .intro img {
         margin-bottom: 3.125rem;
     }
