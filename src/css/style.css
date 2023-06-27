@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-intro {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    background: var(--border);
+    padding: 5% 10% 12% 10%;
+    border-bottom-right-radius: 0.625rem;
+}
+
+.intro img {
+    margin-bottom: 6.25rem;
+}
+
+.intro h1 {
+    font-size: 3.5rem;
+    color: var(--gunmetal);
+    margin-bottom: 1.875rem;
+    color: var(--gunmetal);
+}
+
+.intro p {
+    color: var(--darkElectricBlue);
+}
+
+.form {
+    background: var(--pureWhite);
+    padding: 1.875rem;
+    border-radius: 0.625rem;
+    position: relative;
+    right: 3.125rem;
+    margin-right: 6.25rem;
+}
+
+.form h2 {
+    margin-bottom: 1.875rem;
+    color: var(--gunmetal);
+}
+
+.choice {
+    display: flex;
+    gap: 9.375rem;
+    margin-bottom: 1.875rem;
+}
+
+.choice label {
+    color: var(--gunmetal);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+.inputs label {
+    color: var(--darkElectricBlue);
+}
+
+.inputs input {
+    color: var(--darkElectricBlue);
+    font-size: 2rem;
+    padding: 0.9375rem;
+    width: 12.5rem;
+    border: 1px solid var(--border);
+    border-radius: 0.625rem;
+    margin-top: 1.25rem;
+}
+
+.stats {
+    position: relative;
+}
+
+.measure {
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 2rem;
+    right: 5%;
+    position: absolute;
+    top: 50%;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    color: var(--pureWhite);
+    background: var(--blue);
+    padding: 1.875rem;
+    justify-content: space-between;
+    border-radius: 0.625rem 6.25rem 6.25rem 0.625rem;
+}
+
+.result h2 {
+    margin-bottom: 0px;
+    color: var(--pureWhite);
+    font-size: 2rem;
+    margin-top: 0.625rem;
+}
+
+.result .welcome {
+    color: var(--pureWhite);
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 1.25rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    padding: 7% 10%;
+    gap: 6.25rem;
+}
+
+.info img {
+    width: 50%;
+}
+
+.info h1 {
+    font-size: 2.5rem;
+    color: var(--gunmetal);
+    margin-bottom: 1.875rem;
+}
+
+.info p {
+    line-height: 1.875rem;
+    color: var(--darkElectricBlue);
+}
+
+.reduce-ways {
+    display: flex;
+    padding: 5%;
+    gap: 1.875rem;
+}
+
+.reduce-ways img {
+    margin-bottom: 1.875rem;
+}
+
+.reduce-ways h3 {
+    color: var(--gunmetal);
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.reduce-ways p {
+    color: var(--darkElectricBlue);
+}
+
+.limitations-container {
+    padding: 10% 5%;
+    display: flex;
+    gap: 12.5rem;
+    background: var(--border);
+    justify-content: space-between;
+}
+
+.limitations {
+    display: grid;
+    grid-template-areas:
+    'container-1'
+    'container-2'
+    'container-3';
+    gap: 3.125rem;
+}
+
+.limitations article {
+    padding: 1.875rem;
+    border-radius: 0.625rem;
+    background: var(--pureWhite);
+}
+
+.limitations article > div {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.limitations h2 {
+    color: var(--gunmetal);
+    font-weight: 400;
+}
+
+.limitations p {
+    color: var(--darkElectricBlue);
+}
+
+.container-1 {
+    grid-area: container-1;
+    width: 70%;
+}
+
+.container-2 {
+    grid-area: container-2;
+    display: flex;
+    gap: 3.125rem;
+    position: relative;
+    left: -20%;
+}
+
+.container-3 {
+    grid-area: container-3;
+    display: flex;
+    gap: 3.125rem;
+    position: relative;
+    left: -40%;
+}
+
+.limitations-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.limitations-intro h1 {
+    color: var(--gunmetal);
+    font-size: 2.7rem;
+}
+
+.limitations-intro p {
+    color: var(--darkElectricBlue);
+}

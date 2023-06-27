@@ -1,0 +1,159 @@
+@media (min-width: 500px) and (max-width: 1200px) {
+    .main-intro {
+        flex-direction: column;
+    }
+
+    .intro {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 0 0 0.625rem 0.625rem;
+    }
+
+    .intro img {
+        margin-bottom: 3.125rem;
+    }
+
+    .intro br {
+        display: none;
+    }
+
+    .form {
+        position: relative;
+        right: auto;
+        margin-right: 0px;
+        top: -3.125rem;
+    }
+
+    .inputs input {
+        width: 100%;
+    }
+
+    .info {
+        padding: 7% 10% 7% 0;
+    }
+
+    .reduce-ways img {
+        margin-bottom: 0px;
+    }
+
+    .reduce-ways {
+        flex-direction: column;
+    }
+
+    .reduce-ways article {
+        display: flex;
+        align-items: center;
+        gap: 1.875rem;
+    }
+
+    .limitations-container {
+        flex-direction: column;
+        gap: 4.375rem;
+        align-items: center;
+    }
+
+    .limitations-intro {
+        text-align: center;
+    }
+
+    .container-1 {
+        width: 100%;
+    }
+    
+    .container-2 {
+        left: auto;
+    }
+    
+    .container-3 {
+        left: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-intro {
+        flex-direction: column;
+    }
+
+    .intro {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 0 0 0.625rem 0.625rem;
+        padding: 10% 5%;
+    }
+
+    .intro img {
+        margin-bottom: 3.125rem;
+    }
+
+    .form {
+        position: relative;
+        right: auto;
+        margin-right: 0px;
+        top: -1.875rem;
+        margin: 1.25rem;
+        padding: 1.25rem;
+    }
+
+    .result {
+        text-align: center;
+        flex-direction: column;
+        border-radius: 0.625rem;
+        gap: 1.875rem;
+    }
+
+    .choice {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .inputs {
+        flex-direction: column;
+    }
+
+    .inputs input {
+        width: 100%;
+    }
+
+    .container-1 {
+        width: 100%;
+    }
+    
+    .container-2 {
+        flex-direction: column;
+        left: auto;
+    }
+    
+    .container-3 {
+        flex-direction: column;
+        left: auto;
+    }
+
+    .info {
+        flex-direction: column;
+        padding: 5%;
+        gap: 3.125rem;
+        text-align: center;
+    }
+
+    .info img {
+        width: 100%;
+    }
+
+    .reduce-ways {
+        flex-direction: column;
+    }
+
+    .limitations-container {
+        flex-direction: column;
+        gap: 3.125rem;
+    }
+
+    .limitations-intro {
+        text-align: center;
+    }
+
+}
